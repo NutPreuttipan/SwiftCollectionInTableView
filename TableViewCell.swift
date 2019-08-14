@@ -27,7 +27,11 @@ extension TableViewCell {
     }
     
     var collectionViewOffset: CGFloat {
-        set { collectionView.contentOffset.x = newValue }
-        get { return collectionView.contentOffset.x }
+        get {
+            return collectionView.contentOffset.x
+        }
+        set {
+            collectionView.contentOffset.x = newValue
+        }
     }
 }

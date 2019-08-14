@@ -24,10 +24,6 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         return 15
     }
     
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 120
-    }
-    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = self.tableViewList.dequeueReusableCell(withIdentifier: "tableCell", for: indexPath) as! TableViewCell
         

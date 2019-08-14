@@ -30,8 +30,11 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="fk5-uI-MJ6">
-                                                    <rect key="frame" x="20" y="11" width="394" height="98"/>
+                                                    <rect key="frame" x="20" y="11" width="394" height="97.5"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="97.5" id="tAQ-6E-XYt"/>
+                                                    </constraints>
                                                     <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="G7O-1g-HlP">
                                                         <size key="itemSize" width="90" height="90"/>
                                                         <size key="headerReferenceSize" width="0.0" height="0.0"/>
